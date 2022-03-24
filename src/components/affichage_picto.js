@@ -1,4 +1,4 @@
-import useStyles from "../assets/styles/styles";
+import useStyles from "../styles/styles";
 import * as React from 'react';
 import Utils from "../../utils";
 // import SERVER from '../../config/config'; 

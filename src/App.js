@@ -1,17 +1,15 @@
 import React from 'react';
-import './App.css';
-
 import dataCalculateur from './dataCalculateur.json';
 import Menus from './components/menus';
 import Gamme from './classes/Gamme'
 import Modele from './classes/Modele'
 import Type from './classes/Type'
 import { Button, ButtonGroup, Card, CardContent, Grid, Typography } from '@material-ui/core';
-import globalStyle from './assets/styles/globalStyles';
+import globalStyle from './styles/globalStyles';
 import { useState, useRef } from 'react';
-import useStyles from './assets/styles/styles';
+import useStyles from './styles/styles';
 // import SERVER from '../../config/config';
-import Utils from './assets/utils';
+import Utils from './utils';
 import Resultats from './components/resultats'
 import Twinslider from './components/twinslider'
 
@@ -88,33 +86,33 @@ const App = () => {
         if (Utils.objUndef(configPortail)) {
             if (configPortail.type !== 'Portillon') {
                 if (configPortail.traverse === 'Droite') {
-                    portailUrl = '../assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/'
+                    portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/'
                         + strNoAccent(configPortail.type) + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '.jpg';
                 } else {
-                    portailUrl = '../assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/'
+                    portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/'
                         + strNoAccent(configPortail.type) + '/Traverse/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '.jpg';
                 }
             } else {
                 if (configPortail.forme === 'Droite' || configPortail.forme === 'Bombée' || configPortail.forme === 'Incurvée') {
                     if (configPortail.gache === true) {
-                        portailUrl = '../assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
+                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
                             + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-' + firstWord + '.jpg';
                     } else {
-                        portailUrl = '../assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
+                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
                             + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-droite.jpg';
                     }
                 } else {
                     if (configPortail.gache === true) {
-                        portailUrl = '../assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
+                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
                             + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-' + firstWord + '-' + lastWord + '.jpg';
                     } else {
-                        portailUrl = '../assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
+                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
                             + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-droite-haut.jpg';
                     }
                 }
             }
         } else {
-            portailUrl = '../assets/pictoPortail/ALU/Minerale/2 Vantaux/Topaze-Droite.jpg'
+            portailUrl = '/assets/pictoPortail/ALU/Minerale/2 Vantaux/Topaze-Droite.jpg'
         }
         return portailUrl
     }
@@ -122,15 +120,15 @@ const App = () => {
     function pictoPortillonGenerique() {
         if (configPortail.type === 'Portillon') {
             if (configPortail.forme === 'Droite' || configPortail.forme === 'Bombée' || configPortail.forme === 'Incurvée') {
-                imageRef.current.src = '../assets/pictoPortail/generique/portillon/' + strNoAccent(configPortail.forme) + '-' + firstWord + '.jpg';
+                imageRef.current.src = '/assets/pictoPortail/generique/portillon/' + strNoAccent(configPortail.forme) + '-' + firstWord + '.jpg';
             } else {
-                imageRef.current.src = '../assets/pictoPortail/generique/portillon/' + strNoAccent(configPortail.forme) + '-' + firstWord + '-' + lastWord + '.jpg';
+                imageRef.current.src = '/assets/pictoPortail/generique/portillon/' + strNoAccent(configPortail.forme) + '-' + firstWord + '-' + lastWord + '.jpg';
             }
         }
     }
     const imageRef = useRef(undefined);
     const handleError = async (e) => {
-        const pictoPortailGenerique = '../assets/pictoPortail/generique/coulissantGenerique.png'
+        const pictoPortailGenerique = '/assets/pictoPortail/generique/coulissantGenerique.png'
         if (Utils.objUndef(configPortail)) {
             setNeedPath(true)
             if (configPortail.type !== 'Portillon') {
@@ -204,7 +202,7 @@ const App = () => {
                             xs={12}
                         >
                             <Card
-                                elevation={0}>
+                                elevation={2}>
                                 <CardContent
                                     className={globalCss.cardContent}
                                     style={{ height: '100%', textAlign: 'center' }}
@@ -227,7 +225,7 @@ const App = () => {
                         >
                             <Card
                                 style={{ marginBottom: '3%', textAlign: 'center' }}
-                                elevation={0}>
+                                elevation={2}>
                                 <CardContent
                                     className={globalCss.cardContent}
                                     style={{ maxHeight: '100%' }}
@@ -240,7 +238,7 @@ const App = () => {
                             </Card>
                             <Card
                                 style={{ height: '291px' }}
-                                elevation={0}>
+                                elevation={2}>
                                 <CardContent
                                     className={globalCss.cardContent}
                                     style={{ height: '100%' }}

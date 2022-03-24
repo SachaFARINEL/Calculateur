@@ -5,6 +5,8 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
         height: '100%',
         margin: '0 -20px',
+        paddingTop: 30,
+        background: alpha(theme.palette.secondary.contrastText, 0.05),
         [theme.breakpoints.up('md')]: {
             overflow: 'hidden',
         }

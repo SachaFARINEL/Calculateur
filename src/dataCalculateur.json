@@ -267,9 +267,9 @@
         "roseauPortillon": ["Droite", "Demi-bombée"],
         "roseauCoulissant": ["Droite"],
         
-        "rosierPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée"],
-        "rosierPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée"],
-        "rosierCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée"],
+        "rosierPortail": ["Biaise", "CDG", "CDGI", "Bombée"],
+        "rosierPortillon": ["Biaise", "Demi-CDG", "Bombée", "Demi-bombée"],
+        "rosierCoulissant": ["Biaise", "CDG", "CDGI", "Bombée"],
         
         "saulePortail": ["Bombée"],
         "saulePortillon": ["Bombée"],

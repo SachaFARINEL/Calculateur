@@ -3,8 +3,8 @@ import dataCalculateur from '../dataCalculateur.json'
 import { FormControl, Grid, MenuItem, Select, TextField, Typography } from "@material-ui/core"; // !
 import * as React from 'react';
 import { Controller, useForm } from "react-hook-form"; //!
-import Utils from '../assets/utils';
-import useStyles from "../assets/styles/styles";
+import Utils from '../utils';
+import useStyles from "../styles/styles";
 import { Clear } from '@material-ui/icons';
 
 const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
@@ -165,7 +165,28 @@ const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
             setValue('hauteur', 1400)
         }
     }
-    
+
+    const isToLarge = (e) => {
+        let value = undefined
+        if (getLimitLargeurMax() < e.target.value) {
+            value = getLimitLargeurMax()
+        } else {
+            value = e.target.value
+        }
+        return value
+    }
+
+    const isToHigh = (e) => {
+        let value = undefined
+        if (getLimitHauteurMax() < e.target.value) {
+            value = getLimitHauteurMax()
+        } else {
+            value = e.target.value
+        }
+        return value
+    }
+
+
     return <>
 
         <Grid item sm={12} xs={12}>
@@ -561,7 +582,7 @@ const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
                     <Grid
                         item
                         xs={7}
-                        className={[css.center, (!Utils.objUndef(configPortail) || configPortail.gamme !== 'Authentique' || (configPortail.gamme === 'Authentique' && configPortail.forme === 'Droite')) ? css.notAvailable : ''].join(' ')}
+                        className={[css.center, (!Utils.objUndef(configPortail) || configPortail.gamme !== 'Authentique' || (configPortail.gamme === 'Authentique' && configPortail.forme === 'Droite') || configPortail.modele === 'Rosier') ? css.notAvailable : ''].join(' ')}
                     >
                         {!Utils.objUndef(configPortail) || configPortail.gamme !== 'Authentique' ? <Clear /> : <FormControl fullWidth className={css.menuIndividuel}>
                             <Controller
@@ -573,10 +594,10 @@ const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
                                         onChange={(e) => { field.onChange(e); handleTraverseChange(e) }}
                                         disableUnderline
                                         className={css.centerAndFocus}
-                                        disabled={!Utils.objUndef(configPortail) || configPortail.gamme !== 'Authentique' || (configPortail.gamme === 'Authentique' && configPortail.forme === 'Droite') ? true : false}
+                                        disabled={!Utils.objUndef(configPortail) || configPortail.gamme !== 'Authentique' || (configPortail.gamme === 'Authentique' && configPortail.forme === 'Droite') || configPortail.modele === 'Rosier' ? true : false}
                                     >
-                                        <MenuItem key='Droite' value='Droite'>Droite</MenuItem>
-                                        <MenuItem key={getValues('forme')} value={getValues('forme')}>{getValues('forme')}</MenuItem>
+                                        <MenuItem key='Droite' value='Droite'>{configPortail.modele !== 'Rosier' ? 'Droite' : configPortail.forme}</MenuItem>
+                                        <MenuItem key={configPortail.forme} value={configPortail.forme}>{configPortail.forme}</MenuItem>
                                     </Select>
                                 }
                             />
@@ -711,7 +732,7 @@ const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
                                             }
                                         }}
                                         placeholder="Largeur (mm)"
-                                        onChange={(e) => { field.onChange(e); handleLargeurChange(e); }}
+                                        onChange={(e) => { field.onChange(isToLarge(e)); handleLargeurChange(e); }}
                                         value={field.value}
                                         onClick={(e) => e.target.select()}
                                     />
@@ -758,7 +779,7 @@ const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
                                         }}
                                         id='hauteur'
                                         placeholder="Hauteur (mm)"
-                                        onChange={(e) => { field.onChange(e); handleHauteurChange(e) }}
+                                        onChange={(e) => { field.onChange(isToHigh(e)); handleHauteurChange(e) }}
                                         value={field.value}
                                         onClick={(e) => e.target.select()}
                                     />

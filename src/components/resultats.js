@@ -1,10 +1,10 @@
-import useStyles from "../assets/styles/styles";
+import useStyles from "../styles/styles";
 import dataCalculateur from '../dataCalculateur.json'
 import { useEffect } from 'react';
 import { FormControl, Grid, TextField, Typography } from "@material-ui/core";
 import * as React from 'react';
 import { Controller, useForm } from "react-hook-form";
-import Utils from '../assets/utils';
+import Utils from '../utils';
 import { Clear } from '@material-ui/icons';
 
 
@@ -180,7 +180,7 @@ const Resultats = ({ configPortail }) => {
             }
 
             if ((configPortail.largeur < configPortail.LargeurMin) || (configPortail.largeur > configPortail.LargeurMax)) {
-                setValue('largeurVantail', 'Largeur hors limite')
+                setValue('largeurVantail', 'Largeur trop petite')
             }
 
             /* ---------------------------------------------------- Fin Largeur Vantail ------------------------------------------------------  */
@@ -995,7 +995,7 @@ const Resultats = ({ configPortail }) => {
             }
 
             if ((configPortail.largeur < configPortail.LargeurMin) || (configPortail.largeur > configPortail.LargeurMax)) {
-                setValue('fleche', 'Largeur hors limite')
+                setValue('fleche', 'Largeur trop petite')
             }
 
 

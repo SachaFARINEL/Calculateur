@@ -1,9 +1,9 @@
-import useStyles from "../assets/styles/styles";
+import useStyles from "../styles/styles";
 import { FormControl, Grid, TextField, CardContent, Card, Typography, } from "@material-ui/core";
 import * as React from 'react';
 import { Controller, useForm } from "react-hook-form";
 // import SERVER from '../../config/config';
-import globalStyle from "../assets/styles/globalStyles";
+import globalStyle from "../styles/globalStyles";
 
 const Twinslider = () => {
 
