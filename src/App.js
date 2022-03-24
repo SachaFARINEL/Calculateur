@@ -4,12 +4,12 @@ import Menus from './components/menus';
 import Gamme from './classes/Gamme'
 import Modele from './classes/Modele'
 import Type from './classes/Type'
-import { Button, ButtonGroup, Card, CardContent, Grid, Typography } from '@material-ui/core';
+import Picture from './components/picture'
+import { Button, ButtonGroup, Card, CardContent, Grid } from '@material-ui/core';
 import globalStyle from './styles/globalStyles';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import useStyles from './styles/styles';
-// import SERVER from '../../config/config';
-import Utils from './utils';
+
 import Resultats from './components/resultats'
 import Twinslider from './components/twinslider'
 
@@ -53,7 +53,7 @@ const App = () => {
 
     const css = useStyles();
     const globalCss = globalStyle();
-    let portailUrl = undefined;
+
 
     const [configPortail, setConfigPortail] = useState(undefined)
     const [tabRight, setTabRight] = useState(false);
@@ -70,103 +70,6 @@ const App = () => {
         )
     }
 
-    function splitSerrure() {
-        let splittedSerrure;
-        if (!Utils.objUndef(configPortail)) {
-            splittedSerrure = ('Droite poussant serrure côté bas').split(' ')
-        } else {
-            splittedSerrure = (configPortail.serrure).split(' ');
-        }
-        return splittedSerrure
-    }
-    let firstWord = splitSerrure()[0];
-    let lastWord = splitSerrure()[4];
-
-    function choosePictoToDisplay() {
-        if (Utils.objUndef(configPortail)) {
-            if (configPortail.type !== 'Portillon') {
-                if (configPortail.traverse === 'Droite') {
-                    portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/'
-                        + strNoAccent(configPortail.type) + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '.jpg';
-                } else {
-                    portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/'
-                        + strNoAccent(configPortail.type) + '/Traverse/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '.jpg';
-                }
-            } else {
-                if (configPortail.forme === 'Droite' || configPortail.forme === 'Bombée' || configPortail.forme === 'Incurvée') {
-                    if (configPortail.gache === true) {
-                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
-                            + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-' + firstWord + '.jpg';
-                    } else {
-                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
-                            + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-droite.jpg';
-                    }
-                } else {
-                    if (configPortail.gache === true) {
-                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
-                            + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-' + firstWord + '-' + lastWord + '.jpg';
-                    } else {
-                        portailUrl = '/assets/pictoPortail/' + configPortail.materiel + '/' + strNoAccent(configPortail.gamme) + '/Portillon'
-                            + '/' + strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-droite-haut.jpg';
-                    }
-                }
-            }
-        } else {
-            portailUrl = '/assets/pictoPortail/ALU/Minerale/2 Vantaux/Topaze-Droite.jpg'
-        }
-        return portailUrl
-    }
-
-    function pictoPortillonGenerique() {
-        if (configPortail.type === 'Portillon') {
-            if (configPortail.forme === 'Droite' || configPortail.forme === 'Bombée' || configPortail.forme === 'Incurvée') {
-                imageRef.current.src = '/assets/pictoPortail/generique/portillon/' + strNoAccent(configPortail.forme) + '-' + firstWord + '.jpg';
-            } else {
-                imageRef.current.src = '/assets/pictoPortail/generique/portillon/' + strNoAccent(configPortail.forme) + '-' + firstWord + '-' + lastWord + '.jpg';
-            }
-        }
-    }
-    const imageRef = useRef(undefined);
-    const handleError = async (e) => {
-        const pictoPortailGenerique = '/assets/pictoPortail/generique/coulissantGenerique.png'
-        if (Utils.objUndef(configPortail)) {
-            setNeedPath(true)
-            if (configPortail.type !== 'Portillon') {
-                imageRef.current.src = pictoPortailGenerique
-            } else {
-                pictoPortillonGenerique()
-            }
-        }
-    }
-
-    function strNoAccent(a) {
-        var b = "áàâäãåçéèêëíïîìñóòôöõúùûüýÁÀÂÄÃÅÇÉÈÊËÍÏÎÌÑÓÒÔÖÕÚÙÛÜÝ",
-            c = "aaaaaaceeeeiiiinooooouuuuyAAAAAACEEEEIIIINOOOOOUUUUY",
-            d = "";
-        for (var i = 0, j = a.length; i < j; i++) {
-            var e = a.substr(i, 1);
-            d += (b.indexOf(e) !== -1) ? c.substr(b.indexOf(e), 1) : e;
-        }
-        return d;
-    }
-
-    const conditionPointHautBombee = Utils.objUndef(configPortail) && configPortail.forme === 'Bombée' && configPortail.type === 'Portillon' && (configPortail.modele === 'Camélia' || configPortail.modele === 'Cèdre' || configPortail.modele === 'Dahlia' || configPortail.modele === 'Gentiane' || configPortail.modele === 'Tulipe' || configPortail.modele === 'Mimosa')
-
-    const nameImg = () => {
-        let nomImage = undefined;
-        if (Utils.objUndef(configPortail)) {
-            if (configPortail.type === 'Portillon') {
-                if (configPortail.forme === 'Droite' || configPortail.forme === 'Bombée' || configPortail.forme === 'Incurvée') {
-                    nomImage = strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-' + firstWord + '.jpg'
-                } else {
-                    nomImage = strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '-' + firstWord + '-' + lastWord + '.jpg'
-                }
-            } else if (configPortail.type === 'Coulissant') {
-                nomImage = strNoAccent(configPortail.modele) + '-' + strNoAccent(configPortail.forme) + '.jpg'
-            }
-        }
-        return nomImage
-    }
 
     return <>
 
@@ -243,16 +146,11 @@ const App = () => {
                                     className={globalCss.cardContent}
                                     style={{ height: '100%' }}
                                 >
-
-                                    {conditionPointHautBombee ?
-                                        <div style={{ textAlign: 'center', color: 'red' }}><Typography variant='subtitle2'>Le point haut du portillon peut ne pas dépasser la hauteur des montants </Typography> </div> : ''}
-
-                                    {needPath === true ? <div style={{ textAlign: 'center' }}>Image définitive à ajouter dans : <span style={{ fontWeight: 'bold' }}>{'pictoPortail/' + strNoAccent(configPortail.materiel) + '/' + strNoAccent(configPortail.gamme) + '/' + strNoAccent(configPortail.type)}</span> <br></br>
-                                        Nom de l'image : <span style={{ fontWeight: 'bold' }}>{nameImg()} </span></div> : ''}
-
-                                    <div className={css.divPortail} style={{ height: ((conditionPointHautBombee || needPath) ? '70%' : '100%') }}>
-                                        <img ref={imageRef} className={css.photoPortail} src={choosePictoToDisplay()} alt='Picto portail' onError={handleError}></img>
-                                    </div>
+                                    <Picture
+                                        configPortail={configPortail}
+                                        needPath={needPath}
+                                        setNeedPath={setNeedPath}
+                                    />
                                 </CardContent>
                             </Card>
                         </Grid>
