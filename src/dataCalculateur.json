@@ -1,0 +1,2162 @@
+[
+  {
+    "motorisation": [
+      "Sans",
+      "AXOVIA 3S io (SOMFY)",
+      "AXOVIA Multipro (SOMFY)",
+      "BLR'KIT (CARDIN)",
+      "ENERGY KIT (FAAC)",
+      "KT STEALTH (CARDIN)",
+      "VLGOS'KIT (CARDIN)",
+      "Autres..."
+    ]
+  },
+  {
+    "fixation": {
+      "solutionsClassiqueAuthentiqueDesign": {
+        "B": 39,
+        "C": 47,
+        "D": 47,
+        "E": 47,
+        "F": 27,
+        "G": 27,
+        "H": 27
+      },
+      "solutionsMinerale": {
+        "A": 32,
+        "C": 25,
+        "D": 25,
+        "E": 25,
+        "F": 25,
+        "G": 25,
+        "H": 25
+      },
+      "solutionsConfortExcellence": {
+        "C": 25,
+        "D": 25,
+        "E": 25,
+        "F": 25,
+        "G": 25,
+        "H": 25
+      },
+      "solutionsRelax": {
+        "A": 35,
+        "C": 25,
+        "D": 25,
+        "E": 25,
+        "F": 25,
+        "G": 25,
+        "H": 25
+      },
+      "solutionsAlbatros": 33,
+      "solutionsCoulissant": 30
+    }
+  },
+  {
+    "forme": [
+      {
+        "acaciaPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "acaciaPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "acaciaCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+
+        "albiziaPortail": ["Droite"],
+        "albiziaPortillon": ["Droite"],
+        "albiziaCoulissant": ["Droite"],
+
+        "ambrePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "ambrePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "ambreCoulissant": ["Droite"],
+
+        "asteraPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        "asteraPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée", "Dégradée"],
+        "asteraCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+
+        "aubepinePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "aubepinePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "aubepineCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+
+        "aulnePortail": ["Droite", "Biaise"],
+        "aulnePortillon": ["Droite", "Biaise"],
+        "aulneCoulissant": ["Droite", "Biaise"],
+
+        "aulneIIPortail": ["Droite", "Biaise"],
+        "aulneIIPortillon": ["Droite", "Biaise"],
+        "aulneIICoulissant": ["Droite", "Biaise"],
+
+        "bambouPortail": ["Droite"],
+        "bambouPortillon": ["Droite"],
+        "bambouCoulissant": ["Droite"],
+
+        "belombraPortail": ["Droite"],
+        "belombraPortillon": ["Droite"],
+        "belombraCoulissant": ["Droite"],
+        
+        "bonzaiPortail": ["Droite", "Bombée"],
+        "bonzaiPortillon": ["Droite", "Demi-bombée"],
+        "bonzaiCoulissant": ["Droite"],
+        
+        "cameliaPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "cameliaPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "cameliaCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "charmePortail": ["Droite"],
+        "charmePortillon": ["Droite"],
+        "charmeCoulissant": ["Droite"],
+        
+        "chataignierPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "chataignierPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "chataignierCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "chenePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "chenePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "cheneCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "copalmePortail": ["Bombée"],
+        "copalmePortillon": ["Droite", "Bombée", "Demi-bombée"],
+        "copalmeCoulissant": ["Droite", "Bombée"],
+
+        "corailPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "corailPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "corailCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "cypresPortail": ["Droite"],
+        "cypresPortillon": ["Droite"],
+        "cypresCoulissant": ["Droite"],
+        
+        "cedrePortail": ["Droite", "Biaise", "Bombée", "Incurvée"],
+        "cedrePortillon": ["Droite", "Biaise", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "cedreCoulissant": ["Droite", "Biaise", "Bombée", "Incurvée"],
+        
+        "dahliaPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "dahliaPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "dahliaCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "daphnePortail": ["Droite"],
+        "daphnePortillon": ["Droite"],
+        "daphneCoulissant": ["Droite"],
+
+        "emeraudePortail": ["Droite"],
+        "emeraudePortillon": ["Droite"],
+        "emeraudeCoulissant": ["Droite"],
+        
+        "erablePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "erablePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "erableCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "fougerePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        "fougerePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée", "Dégradée"],
+        "fougereCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        
+        "frenePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        "frenePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée", "Dégradée"],
+        "freneCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        
+        "fyboliaDesignPortail": ["Droite"],
+        "fyboliaDesignPortillon": ["Droite"],
+        "fyboliaDesignCoulissant": ["Droite"],
+        
+        "fevierPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "fevierPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "fevierCoulissant": ["Droite"],
+        
+        "gentianePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "gentianePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "gentianeCoulissant": ["Droite"],
+        
+        "genevrierPortail": ["Droite"],
+        "genevrierPortillon": ["Droite"],
+        "genevrierCoulissant": ["Droite"],
+        
+        "genevrierDecoPortail": ["Droite"],
+        "genevrierDecoPortillon": ["Droite"],
+        "genevrierDecoCoulissant": ["Droite"],
+        
+        "graphicPortail": ["Droite"],
+        "graphicPortillon": ["Droite"],
+        "graphicCoulissant": ["Droite"],
+        
+        "hetrePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "hetrePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "hetreCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "ixiaPortail": ["Droite"],
+        "ixiaPortillon": ["Droite"],
+        "ixiaCoulissant": ["Droite"],
+
+        "jadePortail": ["Droite"],
+        "jadePortillon": ["Droite"],
+        "jadeCoulissant": ["Droite"],
+        
+        "lavandePortail": ["Droite"],
+        "lavandePortillon": ["Droite"],
+        "lavandeCoulissant": ["Droite"],
+        
+        "lierrePortail": ["Biaise"],
+        "lierrePortillon": ["Biaise"],
+        "lierreCoulissant": ["Biaise"],
+        
+        "maronnierPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "maronnierPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "maronnierCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "menthePortail": ["Droite"],
+        "menthePortillon": ["Droite"],
+        "mentheCoulissant": ["Droite"],
+        
+        "merisierPortail": ["Droite"],
+        "merisierPortillon": ["Droite"],
+        "merisierCoulissant": ["Droite"],
+        
+        "mimosaPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "mimosaPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "mimosaCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "melezePortail": ["Droite", "Biaise"],
+        "melezePortillon": ["Droite", "Biaise"],
+        "melezeCoulissant": ["Droite"],
+        
+        "noisetierPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "noisetierPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "noisetierCoulissant": ["Droite"],
+        
+        "noisetierDecoPortail": ["Droite"],
+        "noisetierDecoPortillon": ["Droite"],
+        "noisetierDecoCoulissant": ["Droite"],
+        
+        "noyerPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "noyerPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "noyerCoulissant": ["Droite"],
+        
+        "olivierPortail": ["Droite"],
+        "olivierPortillon": ["Droite"],
+        "olivierCoulissant": ["Droite"],
+
+        "opalePortail": ["Droite"],
+        "opalePortillon": ["Droite"],
+        "opaleCoulissant": ["Droite"],
+        
+        "penseePortail": ["Droite"],
+        "penseePortillon": ["Droite"],
+        "penseeCoulissant": ["Droite"],
+        
+        "peuplierPortail": ["Droite"],
+        "peuplierPortillon": ["Droite"],
+        "peuplierCoulissant": ["Droite"],
+        
+        "pinLissesHorizontalesPortail": ["Droite"],
+        "pinLissesHorizontalesPortillon": ["Droite"],
+        "pinLissesHorizontalesCoulissant": ["Droite"],
+        
+        "pinLissesVerticalesPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        "pinLissesVerticalesPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée", "Dégradée"],
+        "pinLissesVerticalesCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        
+        "platanePortail": ["Droite", "Biaise"],
+        "platanePortillon": ["Droite", "Biaise"],
+        "plataneCoulissant": ["Droite", "Biaise"],
+
+        "quartzPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "quartzPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "quartzCoulissant": ["Droite"],
+        
+        "roncePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "roncePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "ronceCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "roseauPortail": ["Droite", "Bombée"],
+        "roseauPortillon": ["Droite", "Demi-bombée"],
+        "roseauCoulissant": ["Droite"],
+        
+        "rosierPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée"],
+        "rosierPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée"],
+        "rosierCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée"],
+        
+        "saulePortail": ["Bombée"],
+        "saulePortillon": ["Bombée"],
+        "sauleCoulissant": ["Bombée"],
+        
+        "silenePortail": ["Droite"],
+        "silenePortillon": ["Droite"],
+        "sileneCoulissant": ["Droite"],
+        
+        "tilleulPortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+        "tilleulPortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée", "Dégradée"],
+        "tilleulCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée", "Dégradée"],
+
+        "topazePortail": ["Droite"],
+        "topazePortillon": ["Droite", "Demi-bombée"],
+        "topazeCoulissant": ["Droite"],
+
+        "topazeDecoPortail": ["Droite"],
+        "topazeDecoPortillon": ["Droite"],
+        "topazeDecoCoulissant": ["Droite"],
+        
+        "tulipePortail": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        "tulipePortillon": ["Droite", "Biaise", "Demi-CDG", "Bombée", "Demi-bombée", "Incurvée", "Demi-incurvée"],
+        "tulipeCoulissant": ["Droite", "Biaise", "CDG", "CDGI", "Bombée", "Incurvée"],
+        
+        "verveinePortail": ["Droite"],
+        "verveinePortillon": ["Droite"],
+        "verveineCoulissant": ["Droite"],
+        
+        "yuccaPortail": ["Droite"],
+        "yuccaPortillon": ["Droite"],
+        "yuccaCoulissant": ["Droite"]
+      }
+    ]
+  },
+  {
+    "materiel": [
+      {
+        "nom_materiel": "ALU",
+        "gamme": [
+          {
+            "nom": "Minérale",
+            "modele": [
+              {
+                "nom_modele": "Ambre",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "ambrePortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "ambrePortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "ambreCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Emeraude",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "emeraudePortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "emeraudePortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "emeraudeCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Corail",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "corailPortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "corailPortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "corailCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Topaze",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "topazePortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "topazePortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "topazeCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Topaze DECO",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "topazeDecoPortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "topazeDecoPortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "topazeDecoCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Quartz",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "quartzPortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "quartzPortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "quartzCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Opale",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "opalePortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "opalePortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "opaleCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Jade",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "jadePortail",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "jadePortillon",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "jadeCoulissant",
+                    "hauteur_min" : 900,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsMinerale"
+          },
+          {
+            "nom": "Classique",
+            "modele": [
+              {
+                "nom_modele": "Chataignier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "chataignierPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "chataignierPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "chataignierCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Marronnier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "maronnierPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "maronnierPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "maronnierCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Noisetier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "noisetierPortail",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "noisetierPortillon",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "noisetierCoulissant",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Noisetier DECO",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "noisetierDecoPortail",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "noisetierDecoPortillon",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "noisetierDecoCoulissant",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Noyer",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "noyerPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1400,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "noyerPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "noyerCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Févier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "fevierPortail",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "fevierPortillon",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "fevierCoulissant",
+                    "hauteur_min" : 1400,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Genévrier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "genevrierPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "genevrierPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "genevrierCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Genévrier DECO",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "genevrierDecoPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "genevrierDecoPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "genevrierDecoCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Cyprès",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "cypresPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "cypresPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "cypresCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Belombra",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "belombraPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "belombraPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "belombraCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Merisier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "merisierPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4700
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "merisierPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "merisierCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Albizia",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "albiziaPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "albiziaPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "albiziaCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Olivier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "olivierPortail",
+                    "hauteur_min" : 725,
+                    "hauteur_max" : 1605,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "olivierPortillon",
+                    "hauteur_min" : 725,
+                    "hauteur_max" : 1605,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "olivierCoulissant",
+                    "hauteur_min" : 740,
+                    "hauteur_max" : 1620,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Saule",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "saulePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "saulePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "sauleCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Roseau",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "roseauPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "roseauPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "roseauCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Lierre",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "lierrePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "lierrePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "lierreCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Bonzaï",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "bonzaiPortail",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "bonzaiPortillon",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "bonzaiCoulissant",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsClassiqueAuthentiqueDesign"
+          },
+          {
+            "nom": "Design",
+            "modele": [
+              {
+                "nom_modele": "Fybolia Design",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "fyboliaDesignPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "fyboliaDesignPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "fyboliaDesignCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Graphic",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "graphicPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "graphicPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "graphicCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5500
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsClassiqueAuthentiqueDesign"
+          },
+          {
+            "nom": "Authentique",
+            "modele": [
+              {
+                "nom_modele": "Acacia",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "acaciaPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "acaciaPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "acaciaCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Aubépine",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "aubepinePortail",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "aubepinePortillon",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "aubepineCoulissant",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5300
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Ronce",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "roncePortail",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "roncePortillon",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "ronceCoulissant",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5300
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Rosier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "rosierPortail",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "rosierPortillon",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "rosierCoulissant",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2200,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5300
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsClassiqueAuthentiqueDesign"
+          }
+        ]
+      },
+      {
+        "nom_materiel": "PVC",
+        "gamme": [
+          {
+            "nom": "Relax",
+            "modele": [
+              {
+                "nom_modele": "Charme",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "charmePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "charmePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "charmeCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1600,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Bambou",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "bambouPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "bambouPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "bambouCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Lavande",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "lavandePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "lavandePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "lavandeCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Peuplier",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "peuplierPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "peuplierPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "peuplierCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Yucca",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "yuccaPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "yuccaPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "yuccaCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1800,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Daphné",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "daphnePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "daphnePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 750,
+                    "largeur_max" : 1500
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "daphneCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4000
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsRelax"
+          },
+          {
+            "nom": "Confort",
+            "modele": [
+              {
+                "nom_modele": "Silène",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "silenePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "silenePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "sileneCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Ixia",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "ixiaPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "ixiaPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "ixiaCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Tilleul",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "tilleulPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "tilleulPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "tilleulCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Astéra",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "asteraPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "asteraPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "asteraCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Pin lisses verticales",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "pinLissesVerticalesPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "pinLissesVerticalesPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "pinLissesVerticalesCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Pin lisses horizontales",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "pinLissesHorizontalesPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "pinLissesHorizontalesPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "pinLissesHorizontalesCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Aulne",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "aulnePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1300,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "aulnePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1300,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "aulneCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1300,
+                    "largeur_min" : 2300,
+                    "largeur_max" : 4900
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Aulne II",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "aulneIIPortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "aulneIIPortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "aulneIICoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 2300,
+                    "largeur_max" : 4900
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Platane",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "platanePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "platanePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "plataneCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Mélèze",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "melezePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "melezePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "melezeCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Fougère",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "fougerePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "fougerePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "fougereCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Frêne",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "frenePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "frenePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "freneCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Erable",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "erablePortail",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4900
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "erablePortillon",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "erableCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 5100
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Camélia",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "cameliaPortail",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "cameliaPortillon",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "cameliaCoulissant",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Tulipe",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "tulipePortail",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "tulipePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "tulipeCoulissant",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Gentiane",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "gentianePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "gentianePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 800,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "gentianeCoulissant",
+                    "hauteur_min" : 800,
+                    "hauteur_max" : 1500,
+                    "largeur_min" : 2300,
+                    "largeur_max" : 4900
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Dahlia",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "dahliaPortail",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "dahliaPortillon",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "dahliaCoulissant",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Cèdre",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "cedrePortail",
+                    "hauteur_min" : 1300,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "cedrePortillon",
+                    "hauteur_min" : 1300,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "cedreCoulissant",
+                    "hauteur_min" : 1300,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Mimosa",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "mimosaPortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 2300,
+                    "largeur_max" : 4300
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "mimosaPortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "mimosaCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 1700,
+                    "largeur_min" : 2300,
+                    "largeur_max" : 4300
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsConfortExcellence"
+          },
+          {
+            "nom": "Excellence",
+            "modele": [
+              {
+                "nom_modele": "Menthe",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "menthePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "menthePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "mentheCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Copalme",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "copalmePortail",
+                    "hauteur_min" : 1200,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "copalmePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "copalmeCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Pensée",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "penseePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "penseePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "penseeCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Verveine",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "verveinePortail",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "verveinePortillon",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "verveineCoulissant",
+                    "hauteur_min" : 1000,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Chêne",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "chenePortail",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "chenePortillon",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "cheneCoulissant",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              },
+              {
+                "nom_modele": "Hêtre",
+                "type": [
+                  {
+                    "nom_type": "2 Vantaux",
+                    "forme_superieure": "hetrePortail",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  },
+                  {
+                    "nom_type": "Portillon",
+                    "forme_superieure": "hetrePortillon",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 1000,
+                    "largeur_max" : 1600
+                  },
+                  {
+                    "nom_type": "Coulissant",
+                    "forme_superieure": "hetreCoulissant",
+                    "hauteur_min" : 1100,
+                    "hauteur_max" : 2000,
+                    "largeur_min" : 2500,
+                    "largeur_max" : 4500
+                  }
+                ]
+              }
+            ],
+            "fixation": "solutionsConfortExcellence"
+          }
+        ]
+      }
+    ]
+  }
+]
