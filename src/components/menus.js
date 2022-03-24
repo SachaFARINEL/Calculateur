@@ -48,7 +48,7 @@ const Menus = ({ materiels, setConfigPortail, configPortail, setNeedPath }) => {
     const handleModeleChange = (e) => { updateValuesForm(false, false, false, false, true, true, false); setNeedPath(false) }
     const handleLargeurChange = (e) => { updateValuesForm() };
     const handleTypeChange = (e) => { updateValuesForm(false, false, false, false, true, true, false); setNeedPath(false) }
-    const handleFormeChange = (e) => { updateValuesForm(false, false, false, false, false, true, false) }
+    const handleFormeChange = (e) => { updateValuesForm(false, false, false, false, false, true, false) ; setNeedPath(false) }
     const handleMotorisationChange = (e) => { updateValuesForm() }
     const handleGacheChange = (e) => { updateValuesForm(false, false, false, false, false, false, true) }
     const handleFixationChange = (e) => { updateValuesForm() }
